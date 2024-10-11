@@ -1,0 +1,6 @@
+@Monochrome.Service.AlbumAPI_HostAddress = http://localhost:5272
+
+GET {{Monochrome.Service.AlbumAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

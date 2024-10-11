@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{CE247009-A0B4-4ECB-B10B-8CEB77393276}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{02CE3585-9C3D-4B79-B169-3CFA3F472792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4054BA1E-74D6-4288-8D19-A0B3A94100C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monochrome.Service.AlbumAPI", "Monochrome.Service.AlbumAPI\Monochrome.Service.AlbumAPI.csproj", "{C72DE31E-8D1E-4A87-BD9E-DCAB837D9A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C72DE31E-8D1E-4A87-BD9E-DCAB837D9A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72DE31E-8D1E-4A87-BD9E-DCAB837D9A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72DE31E-8D1E-4A87-BD9E-DCAB837D9A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72DE31E-8D1E-4A87-BD9E-DCAB837D9A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C72DE31E-8D1E-4A87-BD9E-DCAB837D9A6A} = {4054BA1E-74D6-4288-8D19-A0B3A94100C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6325B26B-F640-4AB4-829F-4D0F9D99123F}
+	EndGlobalSection
+EndGlobal
